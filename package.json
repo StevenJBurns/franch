@@ -1,41 +1,20 @@
 {
-  "name": "franchise-favorites",
+  "name": "franch",
   "author": "Steven J Burns",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "license": "ISC",
-  "main": "main.js",
   "type": "module",
-  "scripts": {
-    "dev": "nodemon ./main.js",
-    "start": "node ./main.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "cd client && NPM_CONFIG_PRODUCTION=false npm i --only=dev && NPM_CONFIG_PRODUCTION=true npm i && npm run build"
-  },
-  "dependencies": {
-    "bcryptjs": "2.4.3",
-    "chalk": "5.3.0",
-    "dotenv": "16.4.5",
-    "express": "4.21.1",
-    "express-jwt": "8.4.1",
-    "jsonwebtoken": "9.0.2",
-    "mongoose": "8.7.2",
-    "morgan": "1.10.0",
-    "serve-favicon": "2.5.0"
-  },
-  "devDependencies": {
-
-  },
-  "engines": {
-    "node": ">=20.0.0",
-    "npm": ">=10.0.0"
-  },
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {},
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/StevenJBurns/franchise-favorites.git"
+    "url": "git+https://github.com/StevenJBurns/franch.git",
+    "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/StevenJBurns/franchise-favorites/issues"
+    "url": "https://github.com/StevenJBurns/franch/issues"
   },
-  "homepage": "https://github.com/StevenJBurns/franchise-favorites#readme",
+  "homepage": "https://github.com/StevenJBurns/franch#readme",
   "keywords": []
 }
