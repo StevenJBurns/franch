@@ -1,1 +1,0 @@
-# Franchise Favorites Client
