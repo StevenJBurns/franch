@@ -1,11 +1,11 @@
 import React from 'react';
 
 /* Local Component Imports */
-import AppHeader from "./AppHeader.jsx";
-import { AppRouter } from './AppRouter/AppRouter';
-import AppMain from "./AppMain.jsx";
-import AppNav from "./AppNav.jsx";
-import AppFooter from "./AppFooter.jsx";
+import AppHeader from "../AppHeader/AppHeader.jsx";
+import { AppRouter } from '../AppRouter/AppRouter.jsx';
+import AppMain from "../AppMain/AppMain.jsx";
+import AppNav from "../AppNav/AppNav.jsx";
+import AppFooter from "../AppFooter/AppFooter.jsx";
 
 /* Style and Asset Imports */
 import '../../styles/App.css';

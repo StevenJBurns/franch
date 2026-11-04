@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const userReducer = (state, action) => {
-  const [user, setUser] = Reqact.useState({});
+  const [user, setUser] = React.useState({});
 
   switch (action.type) {
     case 'login':

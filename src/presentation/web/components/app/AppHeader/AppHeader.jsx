@@ -2,7 +2,7 @@
 import React from "react";
 
 /* Local Dependency Imports */
-import AuthenticationPanel from "../ui/AuthenticationPanel.jsx";
+import AuthenticationPanel from "../../ui/AuthenticationPanel.jsx";
 
 /* Font Awesome! */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

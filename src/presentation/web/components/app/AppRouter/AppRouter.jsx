@@ -13,7 +13,7 @@ export const AppRouter = () => (
   <Switch>
     <Route exact path="/">
       <PageHome />
-    </Route>>
+    </Route>
     <Route exact path="/login">
       <PageLogin />
     </Route>
@@ -22,7 +22,7 @@ export const AppRouter = () => (
     </Route>
     <Route exact path="/franchises">
       <PageFranchiseList />
-    </Route>>
+    </Route>
     <Route exact path="/franchises/:slug">
       <PageFranchiseDetail />
     </Route>

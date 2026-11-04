@@ -1,8 +1,5 @@
 import React from "react";
 
-import authenticateUser from "../../services/authenticateUser";
-
-
 export const AuthenticationContext = React.createContext({});
 
 const AuthenticationHOC = (Component) => {

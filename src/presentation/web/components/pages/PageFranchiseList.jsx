@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import { UserContext } from "../app/App.jsx";
-import FranchiseTile from "../ui/FranchiseTile.jsx";
+import FranchiseTile from "../app/FranchiseTile/FranchiseTile.jsx";
 import "./PageFranchiseList.css";
 
 export const PageFranchiseList = (props) => {
