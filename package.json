@@ -6,7 +6,15 @@
   "type": "module",
   "private": true,
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.2.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
   "engines": {
     "bun": "1.4.x",
     "node": "24.x"
