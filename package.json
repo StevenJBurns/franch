@@ -7,7 +7,10 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {},
-  "engines": {},
+  "engines": {
+    "bun": "1.4.x",
+    "node": "24.x"
+  },
   "repository": {
     "url": "git+https://github.com/StevenJBurns/franch.git",
     "type": "git"
